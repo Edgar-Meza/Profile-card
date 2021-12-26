@@ -103,6 +103,11 @@ main .bg-main .card-body .info-card .stats-card div span:nth-child(2) {
 .attribution {
   font-size: 11px;
   text-align: center;
+  z-index: 12;
+  position: absolute;
+  bottom: 3px;
+  text-align: center;
+  width: 100%;
 }
 .attribution a {
   color: #3e52a3;
