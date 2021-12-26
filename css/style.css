@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main .bg-1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #19a2ae;
+}
+main .bg-1 img {
+  width: 60%;
+  margin-top: -20%;
+  margin-left: -15%;
+}
+main .bg-2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+main .bg-2 img {
+  width: 60%;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+main .bg-main {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #2d3248;
+}
+main .bg-main .card-body {
+  width: 350px;
+  background: #FFFFFF;
+  height: 360px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+main .bg-main .card-body img {
+  border-radius: 15px 15px 0px 0px;
+}
+main .bg-main .card-body .info-card {
+  margin-top: -15%;
+}
+main .bg-main .card-body .info-card img {
+  border-radius: 50%;
+  border: 5px solid #FFF;
+}
+main .bg-main .card-body .info-card h1 {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+main .bg-main .card-body .info-card h1 span {
+  font-weight: 400;
+  color: #6a6f81;
+  font-size: 20px;
+}
+main .bg-main .card-body .info-card span {
+  color: #6a6f81;
+  font-size: 15px;
+}
+main .bg-main .card-body .info-card hr {
+  margin-top: 5%;
+  color: #6a6f81;
+  filter: opacity(0.5);
+}
+main .bg-main .card-body .info-card .stats-card {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main .bg-main .card-body .info-card .stats-card div {
+  width: 30%;
+  text-align: center;
+  margin: 5%;
+}
+main .bg-main .card-body .info-card .stats-card div span {
+  display: block;
+}
+main .bg-main .card-body .info-card .stats-card div span:first-child {
+  color: #2d3248;
+  font-size: 20px;
+  font-weight: 700;
+}
+main .bg-main .card-body .info-card .stats-card div span:nth-child(2) {
+  font-size: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 500px) {
+  .bg-2 img {
+    margin-top: 100% !important;
+  }
+
+  .card-body {
+    margin-top: 25% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
